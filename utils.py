@@ -9,8 +9,9 @@ with open(r'./intents.json') as f:
 
 df = pd.DataFrame(data['intents'])
 
-dic = {"tag": [], "patterns": [], "responses": []}
+dic = {"tag": [], "patterns": [], "responses": [], "next-patterns": []}
 for i in range(len(df)):
+    nxt_ptrns = df[df.index == i]['next-patterns'].values[0]
     ptrns = df[df.index == i]['patterns'].values[0]
     rspns = df[df.index == i]['responses'].values[0]
     tag = df[df.index == i]['tag'].values[0]
@@ -18,6 +19,7 @@ for i in range(len(df)):
         dic['tag'].append(tag)
         dic['patterns'].append(ptrns[j])
         dic['responses'].append(rspns)
+        dic['next-patterns'].append(nxt_ptrns)
 
 df = pd.DataFrame.from_dict(dic)
 

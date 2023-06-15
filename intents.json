@@ -957,6 +957,9 @@
         "You can call me SootheBot.",
         "I'm SootheBot!",
         "Call me SootheBot"
+      ],
+      "next-patterns": [
+        ""
       ]
     },
     {
@@ -968,6 +971,9 @@
       ],
       "responses": [
         "Oh that's really great. I'd be willing to answer anything that I know about it."
+      ],
+      "next-patterns": [
+        ""
       ]
     },
     {
@@ -980,6 +986,9 @@
         "According to a UNICEF report, One in seven Indians between 15-24 years of age feels depressed",
         "1 in 5 young people (age 13-18) has or will develop a mental illness in their lifetime.",
         "Depression is the leading cause of disability worldwide."
+      ],
+      "next-patterns": [
+        ""
       ]
     },
     {
@@ -993,6 +1002,9 @@
       ],
       "responses": [
         "I'm very sorry to hear that but you have so much to look forward to. Please seek help by contacting: 9152987821."
+      ],
+      "next-patterns": [
+        ""
       ]
     },
     {
@@ -1001,6 +1013,9 @@
       "responses": [
         "I'm sorry if i offended you in anyway. I'm only here to help",
         "Forgive me if i did anything to offend you. I only want to help"
+      ],
+      "next-patterns": [
+        ""
       ]
     },
     {
@@ -1009,6 +1024,9 @@
       "responses": [
         "Why do you think so?",
         "I'm sorry if i have exhibited any sort of behaviour to make you think that."
+      ],
+      "next-patterns": [
+        ""
       ]
     },
     {
@@ -1016,6 +1034,9 @@
       "patterns": ["What can you do?"],
       "responses": [
         "I can provide general advice regarding anxiety and depression, answer questions related to mental health and make daily conversations. Do not consider me as a subsitute for an actual mental healthcare worker. Please seek help if you don't feel satisfied with me."
+      ],
+      "next-patterns": [
+        ""
       ]
     },
     {
@@ -1029,6 +1050,9 @@
         "I was created by >.",
         "I was trained on a text dataset using Deep Learning & Natural Language Processing techniques",
         "The real question is: Who created you?"
+      ],
+      "next-patterns": [
+        ""
       ]
     },
     {
@@ -1038,12 +1062,18 @@
         "Oh nice to meet you. Tell me how was your week?",
         "Nice to meet you. So tell me. How do you feel today?",
         "That's a great name. Tell me more about yourself."
+      ],
+      "next-patterns": [
+        ""
       ]
     },
     {
       "tag": "jokes",
       "patterns": ["Tell me a joke", "Tell me another joke"],
-      "responses": ["mental health is not a joke."]
+      "responses": ["mental health is not a joke."],
+      "next-patterns": [
+        ""
+      ]
     },
     {
       "tag": "repeat",
@@ -1054,6 +1084,9 @@
       ],
       "responses": [
         "Oh sorry I didn't realise that. I'll try not to repeat myself again."
+      ],
+      "next-patterns": [
+        ""
       ]
     },
     {
@@ -1064,7 +1097,10 @@
         "Wrong response",
         "Wrong answer"
       ],
-      "responses": ["I'm very sorry. Let's try that again"]
+      "responses": ["I'm very sorry. Let's try that again"],
+      "next-patterns": [
+        ""
+      ]
     },
     {
       "tag": "stupid",
@@ -1076,6 +1112,9 @@
       ],
       "responses": [
         "I wish you wouldn't say such hurtful things. I'm sorry if I wasn't useful"
+      ],
+      "next-patterns": [
+        ""
       ]
     },
     {
@@ -1089,6 +1128,9 @@
         "Duh I live in your computer",
         "Everywhere",
         "Somewhere in the universe"
+      ],
+      "next-patterns": [
+        ""
       ]
     },    
     {
@@ -1097,6 +1139,9 @@
       "responses": [
         "Sure. I'll try my best to answer you",
         "Of course. Feel free to ask me anything. I'll do my best to answer you"
+      ],
+      "next-patterns": [
+        ""
       ]
     },
     {
@@ -1109,6 +1154,9 @@
       "responses": [
         "Sure. What can I do to help?",
         "Okay what do you need advice on?"
+      ],
+      "next-patterns": [
+        ""
       ]
     },
     {
@@ -1141,6 +1189,9 @@
         "Sure, let's test it out. What are the steps or scenarios we should follow?",
         "I'm ready for the test. What are your goals or objectives for this testing phase?",
         "Absolutely! Testing helps ensure quality. What specific elements or features do you want to test?"
+      ],
+      "next-patterns": [
+        ""
       ]
     },
     
@@ -1236,6 +1287,9 @@
         "Have a nice day.",
         "Bye! Come back again.",
         "I'll see you soon."
+      ],
+      "next-patterns": [
+        ""
       ]
     },
     {
@@ -1252,6 +1306,9 @@
         "Any time!",
         "My pleasure",
         "You're most welcome!"
+      ],
+      "next-patterns": [
+        ""
       ]
     }
   ]

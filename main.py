@@ -50,9 +50,12 @@ def predict_text(req: RequestText, response: Response):
         
         # Step 4: Change the result of determined API output
         responses = df[df['tag'] == tag]['responses'].values[0]
+        next_patterns = df[df['tag'] == tag]['next-patterns'].values[0]
+
         return {
             "you" : req_text,
-            "bot" : random.choice(responses)
+            "bot" : random.choice(responses),
+            "next_patterns" : next_patterns
         }
     
     except Exception as e:
