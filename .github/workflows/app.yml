@@ -1,4 +1,4 @@
-name: model api
+name: model-api
 
 on:
   push:
